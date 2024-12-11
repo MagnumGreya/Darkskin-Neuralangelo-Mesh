@@ -1,7 +1,7 @@
 # AUTHOR: Chukwuemeka L. Nkama
 # Date: 1/27/2024
 
-git clone https://github.com/NVlabs/neuralangelo.git
+git clone https://github.com/MagnumGreya/neuralangelo.git
 cd ./neuralangelo/
 git submodule update --init --recursive # init colmap submodule
 
