@@ -6,7 +6,7 @@ if [ -z "$(docker images -q colmap_img)" ]; then
   docker build -t colmap_img -f Dockerfile-colmap .
 fi
 
-# Define neuralangelo container
+# Define colmap container
 COLMAP="container_colmap"
 
 # Name of video

@@ -17,7 +17,7 @@ bash projects/neuralangelo/scripts/run_ffmpeg.sh ${1} ${2} ${3}
 rembg p ${image_dir} ${result_dir}
 rm -rf ${image_dir}
 mv ${result_dir} ${image_dir}
-bash projects/neuralangelo/scripts/run_colmap.sh ${data_path}
-python3 projects/neuralangelo/scripts/convert_data_to_json.py --data_dir ${data_path} --scene_type ${4}
-python3 projects/neuralangelo/scripts/generate_config.py --sequence_name ${1} --data_dir ${data_path} --scene_type ${4}
+#bash projects/neuralangelo/scripts/run_colmap.sh ${data_path}
+#python3 projects/neuralangelo/scripts/convert_data_to_json.py --data_dir ${data_path} --scene_type ${4}
+#python3 projects/neuralangelo/scripts/generate_config.py --sequence_name ${1} --data_dir ${data_path} --scene_type ${4}
 
